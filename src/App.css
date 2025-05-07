@@ -1,0 +1,151 @@
+/* *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  padding: 16px;
+  font-family: sans-serif;
+}
+
+.container {
+  margin-left: 20px;
+  border-left: 2px solid #ccc;
+  padding-left: 12px;
+}
+
+.item {
+  margin: 6px 0;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 5vh 0;
+}
+
+.link {
+  padding: 5px 18px;
+  background-color: #c4ffb8;
+  border-radius: 15px;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 4vh 0;
+  padding-bottom: 7vh;
+}
+
+.tag {
+  padding: 5px 18px;
+  background-color: #ffe8e8;
+  border-radius: 15px;
+} */
+
+
+.structure-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.folder-structure {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.node {
+  margin: 8px 0;
+  padding: 10px;
+  border-left: 3px solid #ccc;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.node.folder > .node-header {
+  font-weight: bold;
+  color: #3f51b5;
+}
+
+.node.file > .node-header {
+  font-weight: bold;
+  color: #009688;
+}
+
+.file-content {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-left: 3px solid #ccc;
+  border-radius: 4px;
+}
+
+.file-content h3 {
+  margin: 0 0 8px;
+  color: #333;
+}
+
+.file-content p {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.links a {
+  display: block;
+  color: #1e88e5;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.tags {
+  margin: 8px 0;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: #555;
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+
+.code-blocks pre {
+  background-color: #272822;
+  color: #f8f8f2;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.code-blocks code {
+  font-family: 'Courier New', Courier, monospace;
+}
